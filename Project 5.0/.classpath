@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/jgoodies-common-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/jgoodies-common-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/jgoodies-forms-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/mysql-connector-java-5.1.46-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bajra/OneDrive/Desktop/MYPROECT/CollegeManagementSystem-JDBC-master/CollegeManagementSystem-JDBC/all-jars/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,55 @@
+create database Project;
+use Project
+
+create table login(uid varchar(4),pass varchar(20), type varchar(10));
+insert into login values("999","1234","ADMIN");
+update login set pass="6548" where uid="001";
+
+create table student(uid varchar(4),name varchar(30),marks double(4,1),attendance float,field varchar(10),fee varchar(1));
+
+create table teacher(uid varchar(4),name varchar(30),field varchar(10));
+
+create table attendance(uid varchar(4));
+
+create table ttCo(day varchar(10),l1 varchar(20),l2 varchar(20),l3 varchar(20),l4 varchar(20),l5 varchar(20),l6 varchar(20),l7 varchar(20),l8 varchar(20));
+create table ttCi(day varchar(10),l1 varchar(20),l2 varchar(20),l3 varchar(20),l4 varchar(20),l5 varchar(20),l6 varchar(20),l7 varchar(20),l8 varchar(20));
+create table ttE(day varchar(10),l1 varchar(20),l2 varchar(20),l3 varchar(20),l4 varchar(20),l5 varchar(20),l6 varchar(20),l7 varchar(20),l8 varchar(20));
+create table ttI(day varchar(10),l1 varchar(20),l2 varchar(20),l3 varchar(20),l4 varchar(20),l5 varchar(20),l6 varchar(20),l7 varchar(20),l8 varchar(20));
+create table ttM(day varchar(10),l1 varchar(20),l2 varchar(20),l3 varchar(20),l4 varchar(20),l5 varchar(20),l6 varchar(20),l7 varchar(20),l8 varchar(20));
+
+insert into ttCo values("Monday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCo values("Tuesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCo values("Wednesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCo values("Thursday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCo values("Friday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+
+insert into ttCi values("Monday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCi values("Tuesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCi values("Wednesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCi values("Thursday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttCi values("Friday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+
+insert into ttE values("Monday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttE values("Tuesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttE values("Wednesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttE values("Thursday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttE values("Friday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+
+insert into ttI values("Monday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttI values("Tuesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttI values("Wednesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttI values("Thursday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttI values("Friday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+
+insert into ttM values("Monday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttM values("Tuesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttM values("Wednesday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttM values("Thursday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+insert into ttM values("Friday","Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty");
+
+create table courses(course varchar(10),seats integer);
+insert into courses values("Comps",60);
+insert into courses values("IT",60);
+insert into courses values("EXTC",60);
+insert into courses values("Mech",120);
+insert into courses values("Civil",120);
